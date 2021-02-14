@@ -1,10 +1,5 @@
-# Regression_2018SalesData
-SLR and MLR
-
 ## 2018 Customer Data <br> Linear Regression Predictive Modeling
 ## Kimberly Healy  |  healy.kim@gmx.us
-
-
 
 
 ## Background
