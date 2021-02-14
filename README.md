@@ -112,8 +112,8 @@ top_10 <- data[1:10,]
 The summary reveals the following:    
 - There were 1044 unique customers in 2018.    
 - Lifetime orders and sales values are skewed right, indicating that there are relatively few customers making much larger purchases and few customers are repeating business at a much higher rate than average. Note that these are two groups which may or may not be the same individuals.    
-- There were \$1,568,867 in sales in 2018 (matching the value on the income statement) and \$1,591,916 in sales in 2017 (\$217,633.10 less than reported on income statement).    
-
+- There were $1,568,867 in sales in 2018 (matching the value on the 2018 income statement) and $1,591,916 in sales in 2017, which is $217,633.10 less than reported on 2017 income statement. This discrepancy is because our raw data is a left join of the 2018 and 2017 sales (i.e. all the 2018 sales are represented in the data but only a portion of the 2017 sales are).    
+  
 ```{r lksas}
 summary(data)
 Sales.2018.total <- sum(data$Sales.2018)
