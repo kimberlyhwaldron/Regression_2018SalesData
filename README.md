@@ -1,5 +1,5 @@
 ## 2018 Customer Data <br> Linear Regression Predictive Modeling
-## Kimberly Healy  |  healy.kim@gmx.us
+## Kimberly Waldron  |  kimberly.h.waldron@gmail.com
 
 
 ## Background
